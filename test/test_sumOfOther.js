@@ -1,7 +1,7 @@
 const assert = require('assert');
 Object.freeze(assert);
 const sum = require('./../sumOfOther');
-describe('sumOfOther function returns the sum of the remaining elements of the array', () => {  
+describe('function "sumOfOther"', () => {  
     it('0', () => {
         const solutions = sum([0,0,0]);
         assert.deepEqual(solutions,[0,0,0]);

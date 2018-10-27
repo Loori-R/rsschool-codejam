@@ -2,7 +2,7 @@ const assert = require('assert');
 Object.freeze(assert);
 const make = require('./../make');
 
-describe('make function return amount', () => {  
+describe('function "make"', () => {  
   function sum(a, b) {
     return a + b;
   }
